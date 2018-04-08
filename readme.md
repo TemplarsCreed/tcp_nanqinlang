@@ -12,51 +12,20 @@ as this will, the script works with `multi platform`
 
 ## Debian
 for `Debian`, it's already a stable version cuz long-time maintenance：
-
 ### fool
-it's a version for users with less knowledges
-```bash
-# Debian 7+
-# 32 or 64 bit
-# KVM
-# fool
-wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/3.4.0/tcp_nanqinlang-fool-1.2.0.sh
-bash tcp_nanqinlang-fool-1.2.0.sh
-```
-
+it's a version for users with less relative knowledge
 ### pro
-it's a version for users who already have a little bit of capability
-```bash
-# Debian 7+
-# 32 or 64 bit
-# KVM
-# pro
-wget https://github.com/nanqinlang-tcp/tcp_nanqinlang/releases/download/3.4.0/tcp_nanqinlang-pro-3.4.0.sh
-bash tcp_nanqinlang-pro-3.4.0.sh
-```
+it's a version for users with some relative knowledge
 
 ## CentOS
 for `CentOS`, it's a `devel` version, please do not use it with important environment.
-```bash
-# CentOS 6/7
-# 64 bit
-# KVM
-# devel
-wget https://raw.githubusercontent.com/nanqinlang-tcp/tcp_nanqinlang/devel/CentOS/tcp_nanqinlang-1.3.0.sh
-bash tcp_nanqinlang-1.3.0.sh
-```
 
-## LKL
-for `OpenVZ` via `LKL`, it's also a `devel` version, please do not use it with important environment.
-```bash
-# Debian 7+
-# 64 bit
-# ldd > = 2.14
-# OpenVZ
-# devel
-wget https://raw.githubusercontent.com/nanqinlang-tcp/tcp_nanqinlang/lkl/tcp_nanqinlang-lkl-debian-1.1.0.sh
-bash tcp_nanqinlang-lkl-debian-1.1.0.sh
-```
+## OpenVZ
+for openvz, there are two solution :
+### LKL
+for `OpenVZ` via `lkl`, it's also a `devel` version, please do not use it with important environment.
+### Rinetd
+for `OpenVZ` via `rinetd`, it's also a `devel` version, please do not use it with important environment.
 
 ## according
 Update History  
